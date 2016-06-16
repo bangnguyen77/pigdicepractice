@@ -3,9 +3,9 @@ var rollResult = function() {
   return Math.floor(Math.random() * 6 + 1); // roll for random number
 }
 
-function Scores(bole, bola) {
-  this.playerScore = bole;
-  this.turnTotal = bola;
+function Scores(pScore, diceTotal) {
+  this.playerScore = pScore;
+  this.turnTotal = diceTotal;
 }
 
 Scores.prototype.turnTicker = function (turnRoll) {
