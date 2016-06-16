@@ -1,0 +1,57 @@
+
+ul {
+  list-style: none;
+}
+
+.player1{
+  background-color: lightblue;
+  height: 225px;
+  border: 1px solid red;
+}
+
+.player2{
+  background-color: green;
+  height: 225px;
+  border: 1px solid red;
+}
+
+
+.scoreBoard {
+  background-color: orange;
+  height: 225px;
+  border: 1px solid green;
+}
+
+ h1, h2, h3 {
+   text-align: center;
+ }
+
+ button{
+   text-align: center;
+ }
+
+ .rollResult{
+   /*border: black, 4px;*/
+   color: red;
+   width: 100%;
+   /*height: 40px;*/
+ }
+
+ .turnTotal {
+   color: blue;
+   width: 100%;
+   /*height: 40px;*/
+ }
+
+.winner {
+  background-color: yellow;
+  display: none;
+}
+
+.player1Buttons {
+  display: inline-block;
+}
+
+.player2Buttons{
+  display: none;
+}
